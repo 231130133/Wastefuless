@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 /* CSS Reset */
 html, body, div, span, applet, object, iframe,
@@ -45,6 +46,14 @@ table {
 	border-spacing: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
 /*Variables*/
 
 :root{
@@ -55,32 +64,138 @@ table {
     --lighter-tan: #EADAC0;
     --tan: #AE7A48;
     --darker-tan: #914919;
-    --lighter-grean: #807E2B;
+    --green: #3F9457;
+    --lighter-green: #807E2B;
     --darker-green: #454801;
+    --light-grey: #F5F5F5;
+    --blue: #306CFE;
+    font-family: Alata;
 }  
+
+.important{
+    color: var(--darkest-red);
+    font-size: 1.1em;
+    font-weight: bolder;
+}
 
 /* || Store Page */
 body.store{
-    background-color: var(--tan);
+    background: url(Asset/bg-1.png) center/cover no-repeat fixed;
 }
 
 .store-header{
-    padding: 25px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
 }
 
-.store-name{
+.store-header .right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.store-header__name{
     color: #fff;
     text-decoration: underline;
     font-family: "Aladin";
-    font-weight:100;
+    font-weight: 100;
     font-size: 2.5em;
 }
 
+.store-header__menu .menu-icon{
+    color: var(--darkest-red);
+    border: 3px solid;
+    font-weight: bold;
+    border-radius: 9999px;
+    padding: 1px 4px;
+}
+
+.store-header__open{
+    background-color: var(--lighter-tan);
+    padding: 15px;
+}
+
+.store-header__open{
+    font-size: 0.8em;
+}
+
+.store-header__open i{
+    color: var(--green);
+    margin-right: 5px;
+    font-size: 1.3em;
+}
+
+
+.store-header__profile{
+    color: var(--darkest-red);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
 .food_list{
     display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 100px;
 }
 
 .food-card{
-    width: 150px;
-    background-color: var(--lighter-tan)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 230px;
+    padding: 0px 15px 30px 15px;
+    background-color: var(--lighter-tan);
+    transition: all 0.5s 0.1s;
+}
+
+.food-card:hover{
+    transform: scale(1.05);
+}
+
+.food-card img{
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+
+.food-card__description h2{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.food-card__description p{
+    font-size: 0.7em;
+    line-height: 1.5;
+}
+
+.food-card__add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.food-card__add > :first-child{
+    background-color: var(--light-grey);
+    padding: 10px;
+    width: 90px;
+    text-align: left;
+}
+
+.food-card__add > :first-child i{
+    color: var(--blue);
+}
+
+.food-card__add > :last-child{
+    background-color: var(--tan);
+    color: var(--darkest-red);
+    padding: 10px 13px;
+    border-radius: 999px;
+    font-size: 1.5em;
 }
