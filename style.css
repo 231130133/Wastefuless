@@ -113,6 +113,7 @@ body > .left, body > .right{
     height: 60px;
     border-radius: 999px;
     transition: all 0.5s 0.1s;
+    z-index: 999;
 }
 
 body > .left{
@@ -164,12 +165,51 @@ body.store-category .store-header__name{
     font-size: 1.5em;
 }
 
+.store-header__menu{
+    position: relative;
+}
+
 .store-header__menu .menu-icon{
     color: var(--darkest-red);
     border: 3px solid;
     font-weight: bold;
     border-radius: 9999px;
-    padding: 1px 4px;
+    padding: 4px 4px;
+    display: inline-block;
+    transition: all 0.3s 0.1s;
+}
+
+.store-header__dropdown{
+    top: 30px;
+    position: absolute;
+    font-size: 0.6em;
+    background-color: var(--lighter-tan);
+    padding: 10px;
+    width: 110px;
+    line-height: 2;
+    right: 0px;
+    z-index: 99;
+    transform: scaleY(0);
+    transition: all 0.2s 0.1s;
+    transform-origin: top;
+}
+
+.store-header__dropdown a{
+    text-decoration: underline;
+}
+
+.store-header__dropdown a:hover{
+    opacity: 0.8;
+}
+
+.store-header__menu .menu-icon.active{
+    rotate: 180deg;
+}
+
+
+
+.store-header__menu .menu-icon.active + .store-header__dropdown{
+    transform: scaleY(1);
 }
 
 .store-header__open{
