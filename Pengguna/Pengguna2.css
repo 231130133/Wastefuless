@@ -1,0 +1,124 @@
+body{
+    background-image: url(../Asset/bg-1.png);
+    height: 1000px;
+}
+
+nav{
+    width: 40%;
+}
+
+.bottom{
+    margin-top: 10px;
+    float: left;
+    margin-left: -50px;
+}
+.font-h1{
+    margin-top: -10px;
+    margin-right: -800px;
+    float: right;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    font-family: aladin;
+    text-decoration: underline;
+}
+.img-bottom{
+    margin-left: -30px;
+}
+ul li{
+    display: inline;
+    list-style: none;
+}
+.bottom{
+    margin-top: 200px;
+}
+.judul-utama{
+    text-decoration: underline;
+    color: white;
+    margin-top: -120px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.isi{
+    color: white;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.bungkus{
+    background-color: #EADAC0;
+    margin-left: 200px;
+    margin-top: -180px;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px 0px 0px 10px;
+}
+.menu-1{
+    /* margin-left: 100px; */
+    float: left;
+    margin-left: -145px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.img-menu-1{
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+}
+.img-bungkus{
+    margin-left: -140px;
+    width: 25px;
+    height: 25px;
+    margin-top: 85px;
+}
+.isi-1{
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: -110px;
+    text-align: left;
+}
+.isi-2{
+    margin-left: 100px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.img-ngab{
+    width: 25px;
+    height: 25px;
+    margin-left: 350px;
+}
+.small{
+    background-color: #d9d9d9;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 390px;
+    margin-top: -30px;
+}
+.tambah{
+    margin-top: -40px;
+    margin-left: 430px;
+    width: 60px;
+    height: 60px;
+}
+.two{
+    margin-top: 150px;
+}
+.menu-2{
+    /* margin-left: 100px; */
+    float: left;
+    margin-left: -145px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.img-menu-2{
+    width: 150px;
+    height: 150px;
+    margin-left: 65px;   
+}
+.img-bungkus-2{
+    margin-left: 60px;
+    width: 25px;
+    height: 25px;
+    margin-top: 85px;
+}
