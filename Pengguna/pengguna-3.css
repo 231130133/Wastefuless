@@ -1,0 +1,92 @@
+body{
+    background-image: url(../Asset/bg-1.png);
+    display: inline;
+    height: 2000px;
+}
+nav{
+    width: 100%;
+}
+.left-arrow{
+    width: 50px;
+    height: 50px;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    float: left;
+}
+h1{
+    font-family: aladin;
+    color: white;
+    float: right;
+    text-decoration: underline;
+    margin-right: 3%;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-top: -1px;
+    position: relative;
+}
+main{
+    position: absolute;
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+}
+.rere{
+    z-index: 999;
+    margin-left: 22%;
+    width: 220px;
+    height: 220px;
+}
+.open{
+    float: right;
+    margin-right: 20%;
+    position: relative;
+    
+}
+.black{
+        font-family: aladin;
+        color: black;
+        float: left;
+        margin-left: -20px;
+        font-size: 45px;
+        font-weight: lighter;
+        margin-top: -1px;
+        text-decoration: none;
+}
+.isi{
+    background-color: #EADAC0;
+    position: absolute;
+    margin-left: 30%;
+    height: 300px;
+    width: 500px;
+    /* z-index: -9; */
+    margin-top: 5%;
+}
+.top{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 120px;
+    float: left;
+    text-align: left;
+}
+.shop{
+    margin-top: 230px;
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: -380px;
+    width: 60px;
+    height: 70px;
+}
+.bottom-content{
+    background-color: white;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: -290px;
+    width: 300px;
+    height: 100px;
+}
+.bottom-p{
+    color: red;
+    text-align: center;
+    justify-content: center;
+}
