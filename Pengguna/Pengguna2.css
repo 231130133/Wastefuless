@@ -1,9 +1,13 @@
 body{
     background-image: url(../Asset/bg-1.png);
     height: 1000px;
+<<<<<<< HEAD
+    overflow-x: hidden;
+=======
     width: 100%;
     position: static;
     display: inline;
+>>>>>>> 323ce4221ceca593edd1d0a6aa956d13c8751300
 }
 
 nav{
@@ -120,13 +124,51 @@ ul li{
     margin-left: 90px;   
 }
 .img-bungkus-2{
+<<<<<<< HEAD
+    margin-left: 20px;
+=======
     margin-left: 40px;
+>>>>>>> 323ce4221ceca593edd1d0a6aa956d13c8751300
     width: 25px;
     height: 25px;
     margin-top: 85px;
 }
 .right-1{
     background-color: #EADAC0;
+<<<<<<< HEAD
+    width: 170px;
+    height: 220px;
+    border-radius: 10px 0px 0px 10px;
+}
+.right-1{
+    float: right;
+    margin-top: -520px;
+    margin-right: -780px;
+}
+.right-img-1{
+    float: right;
+    margin-right: 50px;
+    width: 220px;
+    margin-top: 20px;
+}
+.right-2{
+    background-color: #EADAC0;
+    width: 170px;
+    height: 220px;
+    border-radius: 10px 0px 0px 10px;
+}
+.right-2{
+    float: right;
+    margin-top: -220px;
+    margin-right: -780px;
+}
+.right-img-2{
+    float: right;
+    margin-right: 50px;
+    width: 200px;
+    margin-top: 15px;
+}
+=======
     width: 190px;
     height: 205px;
     float: right;
@@ -155,3 +197,4 @@ ul li{
     width: 200px;
     margin-top: 5px;
 }
+>>>>>>> 323ce4221ceca593edd1d0a6aa956d13c8751300
