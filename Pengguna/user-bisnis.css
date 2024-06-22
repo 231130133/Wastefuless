@@ -212,6 +212,20 @@ img.ac{
     margin-top: 400px;
     border-radius: 20px;
 }
+.green{
+    margin-left: 40px;
+    margin-top: 80px;
+    position: absolute;
+}
+.profil-acc{
+    margin-left: 799px;
+    margin-top: 20px;
+    float: right;
+    position: absolute;
+}
+.profil-acc > img{
+    width: 70px;
+}
 
 .iii{
     background-color: #EADAC0;
