@@ -1,9 +1,5 @@
-let dropdown_icon = document.querySelector(".store-header__menu .menu-icon");
+let storeDropdownIcon = document.querySelector(".store-header__menu .menu-icon");
 
-dropdown_icon.addEventListener("click", function(){
-    if(dropdown_icon.classList.contains('active')){
-        dropdown_icon.classList.remove('active')
-    } else{
-        dropdown_icon.classList.add('active')
-    }
+storeDropdownIcon.addEventListener("click", e => {
+    storeDropdownIcon.classList.toggle("active")
 })
