@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3f1604;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.header::before {
+    content: "";
+    background-color: #f5f5dc;
+    width: 400px;
+    height: 100px;
+    padding: -100px 100px;
+    border-radius: 10px 10px 9000% 9000%;
+    position: absolute;
+    top: 0;
+}
+
+.header h1 {
+    position: relative;
+    color: #3f1604;
+    font-size: 36px;
+    z-index: 1;
+}
+
+.header h1 {
+    position: relative;
+    color: #3f1604;
+    font-size: 36px;
+    z-index: 1;
+}
+
+.order-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.order-card {
+    background-color: #f5f5dc;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-card h2 {
+    margin: 5px;
+    color: #3f1604;
+    font-size: 24px;
+    text-align: left;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.order-card hr {
+    border: none;
+    border-top: 1px solid #3f1604;
+    margin: 10px 0;
+}
+
+.order-card p {
+    font-size: 20px;
+    color: #3f1604;
+    margin: 10px 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.order-card a {
+    display: block;
+    background-color: #3f1604;
+    color: #f5f5dc;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-weight: bold;
+    width: 80%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.order-card a:hover {
+    background-color: #3f1604;
+}

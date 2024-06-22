@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('./Asset/background.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3f1604; /* Brown color */
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3f1604;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.logo-small {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-links a {
+    color: #eadac0; /* Cream color */
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.sub-header {
+    background-color: #d4b895; /* Cream color */
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    padding: 20px 0;
+    margin: 0 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 210px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+nav ul li a {
+    color: #3f1604; /* Brown color */
+    text-decoration: none;
+}
+
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d4b895; /* Cream color */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul li .dropdown li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li .dropdown li a {
+    display: block;
+    padding: 10px 20px;
+    color: #3f1604; /* Brown color */
+}
+
+.header-icons a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-icons .icon {
+    height: 25px;
+    width: 25px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.buttons {
+    display: block;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #3f1604; 
+    color: #eadac0;
+    border: none;
+    padding: 10px 20px;
+    width: 45%;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: 2px solid #eadac0; 
+    text-align: center; 
+    margin-left: 10px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+button:hover {
+    background-color: #eadac0; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3f1604; /* Brown color */
+}
+
+button.plus {
+    background-color: #eadac0; 
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    border-radius: 100px;
+    flex: 1; 
+    text-align: center;
+
+    position: fixed;  
+    bottom: 20px;    
+    right: 20px;     
+    width: auto;     
+}
+
+.one {
+    width: 500px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.two {
+    width: 200px;
+    float: right;
+    margin-left: 50px;
+    position: relative;
+}
