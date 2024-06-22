@@ -278,6 +278,11 @@ body.store-category .store-header__name{
     }
 }
 
+.store-footer{
+    color: white;
+    margin-top: 30px;
+}
+
 .category-header{
     display: flex;
     align-items: center;
@@ -552,7 +557,7 @@ body.store-category .store-header__name{
 
 @media (max-width: 900px){
     .food-list{
-        max-height: auto;
+        max-height: fit-content;
         flex-wrap: nowrap;
         align-items: center;
     }
