@@ -1,12 +1,13 @@
 body{
     background-image: url(../Asset/bg-1.png);
     height: 1000px;
+    overflow-x: hidden;
 }
-
+ 
 nav{
     width: 40%;
 }
-
+ 
 .bottom{
     margin-top: 10px;
     float: left;
@@ -14,7 +15,7 @@ nav{
 }
 .font-h1{
     margin-top: -10px;
-    margin-right: -800px;
+    margin-right: -750px;
     float: right;
     font-size: 50px;
     color: white;
@@ -114,24 +115,41 @@ ul li{
 .img-menu-2{
     width: 150px;
     height: 150px;
-    margin-left: 65px;   
+    margin-left: 65px;  
 }
 .img-bungkus-2{
     margin-left: 20px;
     width: 25px;
-    height: 25px; 
+    height: 25px;
     margin-top: 85px;
 }
 .right-1{
+    margin-top: -500px;
     background-color: #EADAC0;
     width: 190px;
-    height: 250px;
-}
-.right-1{
+    height: 200px;
+    margin-right: -800px;
     float: right;
-    margin-right: -650px;
+    border-radius: 5px 0px 0px 5px;
 }
 .right-img-1{
+    margin-top: 10px;
     float: right;
-    margin-right: 50px;
+    margin-right: 60px;
+    width: 200px;
+}
+.right-2{
+    margin-top: -195px;
+    background-color: #EADAC0;
+    width: 190px;
+    height: 200px;
+    margin-right: -800px;
+    float: right;
+    border-radius: 5px 0px 0px 5px;
+}
+.right-img-2{
+    margin-top: 5px;
+    float: right;
+    margin-right: 60px;
+    width: 200px;
 }
