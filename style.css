@@ -484,6 +484,7 @@ body.store-category .store-header__name{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    translate: 0px;
 }
 
 .food-card{
